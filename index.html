@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body>
+  
+</body>
+
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>BestWinzo</title>
+
+<style>
+/* Sayfa ayarları */
+body, html {
+  margin:0;
+  padding:0;
+  height:100%;
+  overflow:hidden;
+  font-family: Arial, sans-serif;
+}
+
+/* Arka plan video */
+video#bgVideo {
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  z-index: -1;
+}
+
+/* Profil + sosyal medya + açıklama kapsayıcı */
+.profile-container {
+  position: absolute;
+  bottom: 50px; /* alt orta kısmı ayarlıyor */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+}
+
+/* Profil fotoğrafı */
+.profile-container img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid red;
+}
+
+/* Sosyal medya butonları */
+.social-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.social-buttons a {
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 2px 2px 5px black;
+  transition: 0.3s;
+}
+
+.social-buttons a:hover {
+  background-color: white;
+  color: red;
+  transform: scale(1.05);
+}
+
+/* Öz geçmiş yazısı */
+.description {
+  color: red;
+  font-size: 18px;
+  max-width: 400px;
+  text-shadow: 2px 2px 5px black;
+  line-height: 1.4;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Arka plan video -->
+<video autoplay muted loop id="bgVideo">
+  <source src="background.mp4" type="video/mp4">
+  Tarayıcınız video etiketini desteklemiyor.
+</video>
+
+<!-- Profil, sosyal medya ve açıklama -->
+<div class="profile-container">
+
+  <img src="winzo.jpg" alt="Profil Fotoğrafı">
+
+  <div class="social-buttons">
+    <a href="https://www.instagram.com/barancjjn?igsh=MWcxZGpsNWNvaXNucQ==" target="_blank">Instagram</a>
+    <a href="https://t.me/Xyokederim" target="_blank">Telegram</a>
+    <a href="https://wa.me/994405505429" target="_blank">WhatsApp</a>
+  </div>
+
+  <div class="description">
+    Selam ben Winzo Jaxson! Ben sanala Hoesyeon'un yanında girmiş ve onun çırağıyım ayrıca ben Team 999 kuruluşunun bir üyesiyim. Bana ulaşmak için üstteki linklere basabilirsiniz.
+  </div>
+
+</div>
+
+</body>
+</html>
